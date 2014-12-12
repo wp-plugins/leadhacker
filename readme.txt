@@ -3,7 +3,7 @@ Contributors: leadhacker
 Tags: leadhacker, callback script, website optimization
 Requires at least: 3.0
 Tested up to: 3.4
-Stable tag: 1.0.0
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -32,6 +32,9 @@ Sign up at [Leadhacker.ru](http://www.leadhacker.ru).
 You're ready to start using Leadhacker!
 
 == Changelog ==
+
+= 1.0.2 =
+* Fixed bug with code deployment.
 
 = 1.0.0 =
 * Introducing the Leadhacker WordPress plugin. Now it's even easier to start improving your website.

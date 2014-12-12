@@ -1,7 +1,7 @@
 <?php
 /**
  * @package Leadhacker
- * @version 1.0.0
+ * @version 1.0.2
  */
 /*
 Plugin Name: Leadhacker
@@ -44,12 +44,12 @@ function add_leadhacker_script() {
       $projectScript = preg_replace($patterns, '', $project_code_html);
 
       if (!$_SERVER['HTTPS']) {
-        $script = "http:".$projectScript;
+        $script = "".$projectScript;
       } else {
         $script = "https:".$projectScript;
       }
       
-	  echo '<script type="text/javascript" src="'.$script.'"></script>';
+	  echo $script;
 
 	  }
 	}

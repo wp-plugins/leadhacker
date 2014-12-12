@@ -60,7 +60,7 @@ function leadhacker_conf() {
       <h3>Leadhacker project code</h3>
       <p>You can find your project code on your web sites's setup page. Go to <a href="https://www.leadhacker.ru/sites">leadhacker.ru/sites</a>, make sure you've selected the right web site and click on &lt;Setup&gt;, then Copy it to Clipboard. You can then paste the code in the box below. Your project code should start with "&lt;script" and end with "&lt;/script&gt;".</p>
       <label for="project_code" style="font-weight:bold;">Paste your project code</label>
-      <input id="project_code" name="project_code" type="text" size="60" maxlength="80" value="<?php echo get_option('leadhacker_project_code'); ?>" style="font-family: 'Courier New', Courier, mono; font-size: 1.5em;" />
+      <textarea id="project_code" name="project_code" cols="60" rows="5" value="<?php echo get_option('leadhacker_project_code'); ?>" style="font-family: 'Courier New', Courier, mono; font-size: 1.5em;"></textarea>
       <?php leadhacker_nonce_field($leadhacker_nonce) ?>
       <p class="submit"><input type="submit" name="submit" value="<?php _e('Update configuration &raquo;'); ?>" /></p>
     </form>
